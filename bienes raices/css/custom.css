@@ -273,9 +273,25 @@ h4 {
 	height: 4rem;
 	display: block;
 	position: absolute;
-	top: -2rem;
+    top: -2rem;
+    left: -2rem;
 }
-.testimonial blockquote{
+.testimonial blockquote {
 	position: relative;
-	padding-left: 5rem;
+    padding-left: 5rem;
+    font-weight: 300;
+}
+/** Footer **/
+.site-footer{
+    background-color: #333;
+    margin: 0; 
+}
+.contendor-foter{
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.copyright{
+    margin: 0; 
+    color: white; 
 }
